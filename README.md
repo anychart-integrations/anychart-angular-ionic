@@ -1,26 +1,62 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+[<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://anychart.com)
+# Anychart Ionic integration
 
-## How to use this template
+This example shows how to use Anychart with
+[Ionic Framework](http://ionicframework.com/docs/) projects.  
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+## Getting started
+To run this sample:
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
+Clone the repository from github.com:
+```
+$ git clone git@github.com:anychart-integrations/anychart-angular-ionic.git
 ```
 
-Then, to run it, cd into `myBlank` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+Navigate to the repository folder:
+```
+$ cd anychart-angular-ionic
 ```
 
-Substitute ios for android if not on a Mac.
+Install Ionic framework ([Full installation guide is here](http://ionicframework.com/docs/intro/installation/)):
+ ```
+ npm install -g cordova ionic
+ ```
+
+Install all project requirements:
+ ```
+ npm install
+ ```
+ 
+Since that, the demo can be launched in your browser:
+ ```
+ ionic serve
+ ```
+ 
+To compile the mobile applications, please follow [this guide](http://ionicframework.com/docs/intro/deploying/):
+ - Add required platform like 
+  ```
+  cordova platform add android
+  ```
+  ```
+  cordova platform add ios
+  ```
+ - Build debug or release apps:
+  ```
+  ionic cordova build android --device
+  ```
+  ```
+  ionic cordova build ios --device
+  ```
+
+
+## Further Learning
+* [Documentation](https://docs.anychart.com)
+* [JavaScript API Reference](https://api.anychart.com)
+* [Code Playground](https://playground.anychart.com)
+* [Technical Support](https://anychart.com/support)
+
+## License
+[© AnyChart.com - JavaScript charts](http://www.anychart.com).
+Released under the [Apache 2.0 License](https://github.com/anychart-integrations/php-mysql-template/blob/master/LICENSE).
+
 

@@ -1,86 +1,86 @@
 {
-  "name": "AnychartIonic",
-  "version": "0.0.1",
-  "author": "AnyChart <contact@anychart.com> (http://anychart.com)",
-  "description": "Anychart - Ionic Framework Integration",
-  "homepage": "https://anychart.com",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/anychart-integrations/anychart-angular-ionic.git"
-  },
-  "bugs": {
-    "url": "https://github.com/anychart-integrations/anychart-angular-ionic/issues"
-  },
-  "keywords": [
-    "anychart",
-    "anystock",
-    "anygantt",
-    "anymap",
-    "charts",
-    "javascript charts",
-    "ajax charts",
-    "plots",
-    "javascript",
-    "SVG",
-    "HTML5",
-    "framework",
-    "angular",
-    "ng",
-    "ionic"
-  ],
-  "scripts": {
-    "clean": "ionic-app-scripts clean",
-    "build": "ionic-app-scripts build",
-    "lint": "ionic-app-scripts lint",
-    "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
-  },
-  "dependencies": {
-    "@angular/common": "4.1.3",
-    "@angular/compiler": "4.1.3",
-    "@angular/compiler-cli": "4.1.3",
-    "@angular/core": "4.1.3",
-    "@angular/forms": "4.1.3",
-    "@angular/http": "4.1.3",
-    "@angular/platform-browser": "4.1.3",
-    "@angular/platform-browser-dynamic": "4.1.3",
-    "@ionic-native/core": "3.12.1",
-    "@ionic-native/splash-screen": "3.12.1",
-    "@ionic-native/status-bar": "3.12.1",
-    "@ionic/storage": "2.0.1",
-    "cordova-android": "^6.2.3",
-    "cordova-ios": "^4.4.0",
-    "cordova-plugin-console": "^1.0.5",
-    "cordova-plugin-device": "^1.1.4",
-    "cordova-plugin-splashscreen": "^4.0.3",
-    "cordova-plugin-statusbar": "^2.2.2",
-    "cordova-plugin-whitelist": "^1.3.1",
-    "ionic-angular": "3.5.3",
-    "ionic-plugin-keyboard": "^2.2.1",
-    "ionicons": "3.0.0",
-    "rxjs": "5.4.0",
-    "sw-toolbox": "3.6.0",
-    "zone.js": "0.8.12"
-  },
-  "devDependencies": {
-    "@ionic/app-scripts": "2.0.2",
-    "@ionic/cli-plugin-cordova": "1.4.1",
-    "@ionic/cli-plugin-ionic-angular": "1.3.2",
-    "anychart": "^7.14.3",
-    "typescript": "2.3.4"
-  },
-  "cordova": {
-    "plugins": {
-      "cordova-plugin-console": {},
-      "cordova-plugin-device": {},
-      "cordova-plugin-splashscreen": {},
-      "cordova-plugin-statusbar": {},
-      "cordova-plugin-whitelist": {},
-      "ionic-plugin-keyboard": {}
+    "name": "AnychartIonic",
+    "version": "0.0.1",
+    "author": "AnyChart <contact@anychart.com> (http://anychart.com)",
+    "description": "Anychart - Ionic Framework Integration",
+    "homepage": "https://anychart.com",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/anychart-integrations/anychart-angular-ionic.git"
     },
-    "platforms": [
-      "android",
-      "ios"
-    ]
-  }
+    "bugs": {
+        "url": "https://github.com/anychart-integrations/anychart-angular-ionic/issues"
+    },
+    "keywords": [
+        "anychart",
+        "anystock",
+        "anygantt",
+        "anymap",
+        "charts",
+        "javascript charts",
+        "ajax charts",
+        "plots",
+        "javascript",
+        "SVG",
+        "HTML5",
+        "framework",
+        "angular",
+        "ng",
+        "ionic"
+    ],
+    "scripts": {
+        "clean": "ionic-app-scripts clean",
+        "build": "ionic-app-scripts build",
+        "lint": "ionic-app-scripts lint",
+        "ionic:build": "ionic-app-scripts build",
+        "ionic:serve": "ionic-app-scripts serve"
+    },
+    "dependencies": {
+        "@angular/common": "4.1.3",
+        "@angular/compiler": "4.1.3",
+        "@angular/compiler-cli": "4.1.3",
+        "@angular/core": "4.1.3",
+        "@angular/forms": "4.1.3",
+        "@angular/http": "4.1.3",
+        "@angular/platform-browser": "4.1.3",
+        "@angular/platform-browser-dynamic": "4.1.3",
+        "@ionic-native/core": "3.12.1",
+        "@ionic-native/splash-screen": "3.12.1",
+        "@ionic-native/status-bar": "3.12.1",
+        "@ionic/storage": "2.0.1",
+        "cordova-android": "^6.2.3",
+        "cordova-ios": "^4.4.0",
+        "cordova-plugin-console": "^1.0.5",
+        "cordova-plugin-device": "^1.1.4",
+        "cordova-plugin-splashscreen": "^4.0.3",
+        "cordova-plugin-statusbar": "^2.2.2",
+        "cordova-plugin-whitelist": "^1.3.1",
+        "ionic-angular": "3.5.3",
+        "ionic-plugin-keyboard": "^2.2.1",
+        "ionicons": "3.0.0",
+        "rxjs": "5.4.0",
+        "sw-toolbox": "3.6.0",
+        "zone.js": "0.8.12"
+    },
+    "devDependencies": {
+        "@ionic/app-scripts": "2.0.2",
+        "@ionic/cli-plugin-cordova": "1.4.1",
+        "@ionic/cli-plugin-ionic-angular": "1.3.2",
+        "anychart": "^7.14.3",
+        "typescript": "2.3.4"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-console": {},
+            "cordova-plugin-device": {},
+            "cordova-plugin-splashscreen": {},
+            "cordova-plugin-statusbar": {},
+            "cordova-plugin-whitelist": {},
+            "ionic-plugin-keyboard": {}
+        },
+        "platforms": [
+            "android",
+            "ios"
+        ]
+    }
 }
