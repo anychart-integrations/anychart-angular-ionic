@@ -42,10 +42,11 @@ To compile the mobile applications, please follow [this guide](http://ionicframe
   ```
  - Build debug or release apps:
   ```
-  ionic cordova build android --device
+  ionic cordova build android --prod --release --device
   ```
   ```
-  ionic cordova build ios --device
+  ionic cordova build ios --prod --release --device
+
   ```
 
 
