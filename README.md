@@ -35,10 +35,10 @@ Since that, the demo can be launched in your browser:
 To compile the mobile applications, please follow [this guide](http://ionicframework.com/docs/intro/deploying/):
  - Add required platform like 
   ```
-  cordova platform add android
+  ionic cordova platform add android
   ```
   ```
-  cordova platform add ios
+  ionic cordova platform add ios
   ```
  - Build debug or release apps:
   ```
@@ -46,8 +46,11 @@ To compile the mobile applications, please follow [this guide](http://ionicframe
   ```
   ```
   ionic cordova build ios --prod --release --device
-
   ```
+  
+## Troubleshooting
+* [Building Android release](https://forum.ionicframework.com/t/ionic-toturial-for-building-a-release-apk/15758)
+* [Deploying without Apple Dev account](http://blog.ionic.io/deploying-to-a-device-without-an-apple-developer-account/)  
 
 
 ## Further Learning
