@@ -32,8 +32,24 @@ Since that, the demo can be launched in your browser:
  ionic serve
  ```
  
+To run the the mobile applications on emulators, please:
+ - Add required platform like (if not added yet)
+  ```
+  ionic cordova platform add android
+  ```
+  ```
+  ionic cordova platform add ios
+  ```
+ - Run the emulator:
+  ```
+  ionic cordova run android
+  ```
+  ```
+  ionic cordova run ios
+  ``` 
+ 
 To compile the mobile applications, please follow [this guide](http://ionicframework.com/docs/intro/deploying/):
- - Add required platform like 
+ - Add required platform like (if not added yet)
   ```
   ionic cordova platform add android
   ```
@@ -48,10 +64,6 @@ To compile the mobile applications, please follow [this guide](http://ionicframe
   ionic cordova build ios --prod --release --device
   ```
   
-## Troubleshooting
-* [Building Android release](https://forum.ionicframework.com/t/ionic-toturial-for-building-a-release-apk/15758)
-* [Deploying without Apple Dev account](http://blog.ionic.io/deploying-to-a-device-without-an-apple-developer-account/)  
-
 
 ## Further Learning
 * [Documentation](https://docs.anychart.com)
