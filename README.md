@@ -4,13 +4,10 @@
 This example shows how to use Anychart with
 [Ionic Framework](http://ionicframework.com/docs/) projects and [Angular 4](https://angular.io/).  
 
-[Getting Started](#getting_started)
-
-[Mobile Apps](#mobile_apps)
-
-[Links](#links)
-
-[License](#license)
+* [Getting Started](#getting_started)
+* [Mobile Apps](#mobile_apps)
+* [Links](#links)
+* [License](#license)
 
 ## Getting Started
 To run this sample:
