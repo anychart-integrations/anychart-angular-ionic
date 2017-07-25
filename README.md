@@ -1,13 +1,15 @@
 [<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://anychart.com)
-# Anychart Ionic integration
+# AnyChart Ionic Integration
 
 This example shows how to use Anychart with
-[Ionic Framework](http://ionicframework.com/docs/) projects.  
+[Ionic Framework](http://ionicframework.com/docs/) projects and [Angular 4](https://angular.io/).  
 
-## Getting started
+[Getting Started](#getting_started)
+[Mobile Apps](#mobile_apps)
+## Getting Started
 To run this sample:
 
-Clone the repository from github.com:
+Clone the repository from github:
 ```
 $ git clone git@github.com:anychart-integrations/anychart-angular-ionic.git
 ```
@@ -17,23 +19,25 @@ Navigate to the repository folder:
 $ cd anychart-angular-ionic
 ```
 
-Install Ionic framework ([Full installation guide is here](http://ionicframework.com/docs/intro/installation/)):
- ```
- npm install -g cordova ionic
- ```
+Install Ionic framework (see [Ionic installation guide](http://ionicframework.com/docs/intro/installation/) if needed):
+```
+npm install -g cordova ionic
+```
 
 Install all project requirements:
- ```
- npm install
- ```
+```
+npm install
+```
  
-Since that, the demo can be launched in your browser:
- ```
- ionic serve
- ```
- 
+Now the demo can be launched in a browser:
+```
+ionic serve
+```
+
+## Mobile Apps
+
 To run the the mobile applications on emulators, please:
- - Add required platform like (if not added yet)
+ - Add a required platform:
   ```
   ionic cordova platform add android
   ```
@@ -48,8 +52,8 @@ To run the the mobile applications on emulators, please:
   ionic cordova run ios
   ``` 
  
-To compile the mobile applications, please follow [this guide](http://ionicframework.com/docs/intro/deploying/):
- - Add required platform like (if not added yet)
+To compile mobile applications, please follow [Ionic Deploying Guide](http://ionicframework.com/docs/intro/deploying/):
+ - Add a required platform:
   ```
   ionic cordova platform add android
   ```
@@ -65,11 +69,14 @@ To compile the mobile applications, please follow [this guide](http://ionicframe
   ```
   
 
-## Further Learning
-* [Documentation](https://docs.anychart.com)
-* [JavaScript API Reference](https://api.anychart.com)
-* [Code Playground](https://playground.anychart.com)
-* [Technical Support](https://anychart.com/support)
+## Links
+* [AnyChart Documentation](https://docs.anychart.com)
+* [AnyChart JavaScript API Reference](https://api.anychart.com)
+* [AnyChart Playground](https://playground.anychart.com)
+* [AnyChart Technical Support](https://anychart.com/support)
+* [Ionic Framework](http://ionicframework.com/docs/)
+* [Angular 4](https://angular.io/). 
+
 
 ## License
 [© AnyChart.com - JavaScript charts](http://www.anychart.com).
