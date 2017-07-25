@@ -78,7 +78,7 @@ To compile mobile applications, please follow [Ionic Deploying Guide](http://ion
 * [AnyChart Playground](https://playground.anychart.com)
 * [AnyChart Technical Support](https://anychart.com/support)
 * [Ionic Framework](http://ionicframework.com/docs/)
-* [Angular 4](https://angular.io/). 
+* [Angular 4](https://angular.io/)
 
 
 ## License
