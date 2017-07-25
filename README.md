@@ -6,6 +6,9 @@ This example shows how to use Anychart with
 
 [Getting Started](#getting_started)
 [Mobile Apps](#mobile_apps)
+[Links](#links)
+[License](#license)
+
 ## Getting Started
 To run this sample:
 
