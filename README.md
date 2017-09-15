@@ -82,7 +82,7 @@ To compile mobile applications, please follow [Ionic Deploying Guide](http://ion
 
 
 ## License
-[© AnyChart.com - JavaScript charts](httpы://www.anychart.com).
+[© AnyChart.com - JavaScript charts](https://www.anychart.com).
 [![Analytics](https://ga-beacon.appspot.com/UA-228820-4/Integrations/Anychart-Angular-Ionic?pixel&useReferer)](https://github.com/igrigorik/ga-beacon)
 
 
