@@ -82,7 +82,7 @@ To compile mobile applications, please follow [Ionic Deploying Guide](http://ion
 
 
 ## License
-[© AnyChart.com - JavaScript charts](http://www.anychart.com).
-Released under the [Apache 2.0 License](https://github.com/anychart-integrations/php-mysql-template/blob/master/LICENSE).
+[© AnyChart.com - JavaScript charts](httpы://www.anychart.com).
+[![Analytics](https://ga-beacon.appspot.com/UA-228820-4/Integrations/Anychart-Angular-Ionic?pixel&useReferer)](https://github.com/igrigorik/ga-beacon)
 
 
