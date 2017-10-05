@@ -24,9 +24,9 @@ export class DemoDataProviderService {
   private dataSet_: anychart.data.Set = anychart.data.set(this.data_);
 
   private mappings_: { [key: string]: anychart.data.View } = {
-    'data1': this.dataSet_.mapAs(void 0, {x: ['customName'], value: ['customValue1']}),
-    'data2': this.dataSet_.mapAs(void 0, {x: ['customName'], value: ['customValue2']}),
-    'data3': this.dataSet_.mapAs(void 0, {x: ['customName'], value: ['customValue3']})
+    'data1': this.dataSet_.mapAs({x: ['customName'], value: ['customValue1']}),
+    'data2': this.dataSet_.mapAs({x: ['customName'], value: ['customValue2']}),
+    'data3': this.dataSet_.mapAs({x: ['customName'], value: ['customValue3']})
   };
 
 
