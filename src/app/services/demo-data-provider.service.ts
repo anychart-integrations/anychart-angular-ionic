@@ -1,5 +1,7 @@
+/// <reference types="anychart" />
 import {Injectable} from '@angular/core';
 import { Subject }    from 'rxjs/Subject';
+import 'anychart';
 
 
 @Injectable()

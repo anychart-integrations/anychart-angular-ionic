@@ -1,6 +1,8 @@
+/// <reference types="anychart" />
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { DemoDataProviderService } from '../services/demo-data-provider.service';
 import { Subscription }   from 'rxjs/Subscription';
+import 'anychart';
 
 
 @Component({
